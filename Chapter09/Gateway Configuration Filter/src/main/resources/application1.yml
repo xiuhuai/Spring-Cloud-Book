@@ -1,0 +1,13 @@
+server:
+  port: 8220
+spring:
+  cloud:
+    application:
+      name: Gateway
+    gateway:
+      routes:
+        - id: hello
+          uri: http://www.longzhonghua.com
+          predicates:
+            - Path=/hello/**
+

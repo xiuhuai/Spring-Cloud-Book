@@ -1,0 +1,1 @@
+INSERT INTO `gateway_routes` (`id`, `routeId`, `routeUri`, `routeOrder`, `predicates`, `uri`, `filters`, `create_time`, `update_time`) VALUES (3, 'hello2', 'lb://example-producer', 3, '[{\n	\"name\": \"Path\",\n	\"args\": {\n		\"_genkey_0\": \"/hello2/**\"\n	}\n}]', 'lb://example-producer', '', '2019-10-26 14:53:30', '2019-10-26 15:07:25');
